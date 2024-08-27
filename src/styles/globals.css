@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.img__user{
+  
+  border-radius: 50%;
+}
+.blok__user {
+  margin-left: 500px;
+}
+.blok__user img{
+  border: 10px solid  black;
+  border-radius: 50%;
+  
+}
+.text__user{
+  margin-top: 30px;
+  
+}
+.end{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+justify-content: start;
+}
+
+.end a{
+  margin-right: 200px;
+background-color: black;
+border-radius: 20px;
+padding: 20px;
+color: red;
+font-size: 20px;
+}
+.end a:hover{
+  margin-right: 200px;
+background-color: black;
+border-radius: 20px;
+padding: 20px;
+color: red;
+font-size: 20px;
+cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 0px 0px 10px 10px rgb(150, 148, 148);
+}
+.end p{
+  background-color: aqua;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.end p:hover{
+  background-color: aqua;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.8s;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgb(150, 148, 148);
+}
+.nav{
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 40px;
+
+}
+.btn{
+  margin-left: 20px;
+background-color: red;
+padding: 16px;
+border-radius: 10px;
+color: white;
+font-size: 20px;
+}
+.btn:hover{
+  margin-left: 20px;
+background-color: red;
+padding: 16px;
+border-radius: 10px;
+color: white;
+font-size: 20px;
+cursor: pointer;
+transition: 0.5s;
+box-shadow: 0px 0px 10px 10px rgb(117, 20, 20);
+}
+.max{
+  margin-left: 400px;
+  margin-top: 20px;
+  width: 1000px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.lop{
+  margin-right: 700px;
+}
+.xrom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blom{
+  width: 350px;
+  margin-top: 20px;
+  background-color: black;
+  padding: 20px;
+  font-size: 30px;
+  align-items: center;
+  color: blue;
+  border-radius: 20px;
+}
+.blom:hover{
+  width: 350px;
+  margin-top: 20px;
+  background-color: black;
+  padding: 20px;
+  font-size: 30px;
+  align-items: center;
+  color: blue;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 0px 0px 10px 10px rgb(154, 154, 154);
+}
+.floop{
+  margin-top: 20px;
+}
+.floop a{
+  padding: 10px;
+
+  border-radius: 20px;
+  color: white;
+ background-color: rgb(188, 83, 83);
+}
